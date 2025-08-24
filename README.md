@@ -1,8 +1,6 @@
 # STOCKPIPELINE
 A Dockerized data pipeline built with Dagster that fetches stock data from Alpha Vantage API, parses it, and stores it into a PostgreSQL database. The pipeline runs on a schedule (hourly or daily) with error handling, retries, and environment-based configuration.
-# Dockerized Stock Data Pipeline (Dagster + Postgres)
 
-This project is a data pipeline that pulls stock data from Alpha Vantage, processes it with Dagster, and saves it into a Postgres database. Everything runs in Docker.
 
 ## What It Does
 - Fetches stock prices (hourly or daily)  
